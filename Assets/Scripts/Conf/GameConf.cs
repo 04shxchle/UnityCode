@@ -1,0 +1,33 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+/// <summary>
+/// ”Œœ∑≈‰÷√
+/// </summary>
+[CreateAssetMenu(fileName ="GameConf",menuName ="GameConf")]
+public class GameConf : ScriptableObject
+{
+    [Tooltip("—Ùπ‚")]
+    public GameObject Sun;
+
+    [Tooltip("Ã´—Ùª®")]
+    public GameObject SunFlower;
+
+    [Tooltip("Õ„∂π…‰ ÷")]
+    public GameObject Peashooter;
+
+    [Header("Ω© ¨")]
+    [Tooltip("Ω© ¨µƒÕ∑")]
+    public GameObject Zombie_Head;
+
+
+    [Header("◊”µØ")]
+    [Tooltip("Õ„∂π")]
+    public GameObject Bullet1;
+    [Tooltip("Õ„∂πª˜÷–")]
+    public Sprite Bullet1Hit;
+
+
+
+}

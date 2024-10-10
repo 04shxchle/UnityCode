@@ -1,0 +1,4 @@
+repository "card game@wechat_os_qy0yjk9gmc_wg5nimhk3wuwhy@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
